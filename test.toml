@@ -1,0 +1,13 @@
+['Const declaration']
+prefix = 'cs'
+body = '''
+const ${1} = ${2}
+'''
+
+['Arrow function declaration']
+prefix = 'af'
+body = '''
+const ${1} = () => {
+    ${2}
+}
+'''

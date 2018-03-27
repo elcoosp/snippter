@@ -1,8 +1,7 @@
 {
   "name": "snippter",
   "version": "1.0.0",
-  "description":
-    "Write your snippets in toml, parse them to VsCode (json) and Atom (cson) using the snippter CLI.",
+  "description": "Write your snippets in toml, parse them to VsCode (json) and Atom (cson) using the snippter CLI.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -12,13 +11,19 @@
   },
   "scripts": {
     "dev": "nodemon ./index.js --ignore ./snippets parse test.toml ./snippets ",
-    "start": "node ./index.js parse test.toml  ./snippets/"
+    "start": "node ./index.js parse test.toml  ./snippets/",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elcoosp/snippter.git"
   },
-  "keywords": ["snippets", "atom", "vscode", "toml"],
+  "keywords": [
+    "snippets",
+    "atom",
+    "vscode",
+    "toml"
+  ],
   "author": "elcoosp",
   "license": "MIT",
   "bugs": {
@@ -31,9 +36,12 @@
     "await-to-js": "^2.0.1",
     "chalk": "^2.3.2",
     "commander": "^2.15.0",
-    "cson": "^5.1.0",
     "inquirer": "^5.1.0",
+    "season": "^6.0.2",
     "toml": "^2.3.3",
     "write": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
   }
 }

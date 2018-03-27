@@ -6,5 +6,5 @@ Currently a work in progress
 
 ## Todo
 
-* [ ] Change atom formatter to double-quotes all keys in cson
-* [ ] Add tests
+* [x] Add tests for formatters
+* [ ] Add tests for writers/parsers

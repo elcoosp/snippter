@@ -1,3 +1,5 @@
+scope= 'js'
+
 ['Const declaration']
 prefix = 'cs'
 body = '''

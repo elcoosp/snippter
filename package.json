@@ -34,14 +34,14 @@
     "async-file": "^2.0.2",
     "await-fs": "^1.0.0",
     "await-to-js": "^2.0.1",
-    "chalk": "^2.3.2",
-    "commander": "^2.15.0",
-    "inquirer": "^5.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
     "season": "^6.0.2",
     "toml": "^2.3.3",
     "write": "^1.0.3"
   },
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^22.4.4"
   }
 }
